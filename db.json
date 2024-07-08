@@ -1,0 +1,315 @@
+{
+  "reservations": [
+    {
+      "id": "giGttQXMhbCzCsKjOEjc3",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-10T18:49"
+    },
+    {
+      "id": "WzKqq4SS5U-EqYLv-WH11",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-10T18:49"
+    },
+    {
+      "id": "rOGk3f4pgUnZORFzOmRlv",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-09T19:19",
+      "reservationType": "immediate",
+      "estimatedFare": 32.154133333333334
+    },
+    {
+      "id": "CTVxWpuiTMoctWAvPSbbk",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-09T19:19",
+      "reservationType": "immediate",
+      "estimatedFare": 31.8083
+    },
+    {
+      "id": "W6xQXRLQE2huN7YgB585I",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:24:30.483Z",
+      "reservationType": "immediate",
+      "estimatedFare": 31.687466666666666
+    },
+    {
+      "id": "6zJY2HXt_5QwfPZdF9Z6g",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T17:24:46.931Z",
+      "reservationType": "immediate",
+      "estimatedFare": 6.974499999999999
+    },
+    {
+      "id": "Rxaoz_dGb_6ANimu4Cp21",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:26:43.688Z",
+      "reservationType": "immediate",
+      "estimatedFare": 31.299966666666666
+    },
+    {
+      "id": "ESlMHeEbu0L3UXNdMZWJO",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:32:22.128Z",
+      "reservationType": "immediate"
+    },
+    {
+      "id": "vlk5fcM-XyQL4uj_8O2wD",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:36:43.938Z",
+      "reservationType": "immediate"
+    },
+    {
+      "id": "sePasEv_b5a_zprzndXWV",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:38:26.479Z",
+      "reservationType": "immediate",
+      "discountedFare": 26.627411666666664
+    },
+    {
+      "id": "5j-xRfbdbvDZK17UNVNe4",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:43:42.994Z",
+      "reservationType": "immediate",
+      "discountedFare": 25.94032833333333
+    },
+    {
+      "id": "9tl9FjzXYY-259N5jMot6",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:43:47.760Z",
+      "reservationType": "immediate",
+      "discountedFare": 25.94032833333333
+    },
+    {
+      "id": "Z5M_RqQ-SqVa5l9C4ELXG",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "13 Rue Bellanger, Levallois-Perret, France",
+      "pickupTime": "2024-07-08T17:52:18.968Z",
+      "reservationType": "immediate",
+      "discountedFare": 25.71720333333333
+    },
+    {
+      "id": "2Q6X-vPhiRh6iaOCtw_3q",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "33 Boulevard Davout, Paris, France",
+      "pickupTime": "2024-07-08T17:53:00.017Z",
+      "reservationType": "immediate",
+      "discountedFare": 10.22091
+    },
+    {
+      "id": "oXZ2K8x96JGVc7aUoKVG1",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "25 Rue des Acacias, Garges-lès-Gonesse, France",
+      "pickupTime": "2024-07-08T17:54:28.665Z",
+      "reservationType": "immediate",
+      "discountedFare": 32.450959999999995
+    },
+    {
+      "id": "lNPt0qCF4189-d_oDIX6w",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "Neuilly Porte Maillot, Avenue de la Grande Armée, Paris, France",
+      "pickupTime": "2024-07-08T18:00:31.025Z",
+      "reservationType": "immediate",
+      "discountedFare": 21.99063333333333
+    },
+    {
+      "id": "ZeYvHzYAQNow5yYUH3P1e",
+      "pickupLocation": "19 Place Jeanne d'Arc, Paris, France",
+      "dropoffLocation": "25 Rue des Acacias, Garges-lès-Gonesse, France",
+      "pickupTime": "2024-07-08T18:08:03.846Z",
+      "reservationType": "immediate",
+      "discountedFare": 32.284501666666664
+    },
+    {
+      "id": "zBo-CxljwZJfAXIAnK2Vo",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "25 Rue des Acacias, Garges-lès-Gonesse, France",
+      "pickupTime": "2024-07-08T19:12:09.839Z",
+      "reservationType": "immediate",
+      "discountedFare": 32.11090333333333
+    },
+    {
+      "id": "rf45A0bEq8a3g6TKkpK-7",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T19:15:56.436Z",
+      "reservationType": "immediate",
+      "discountedFare": 5.552851666666667
+    },
+    {
+      "id": "6RWz1xZsAAI1yr80yoJD9",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T19:16:02.020Z",
+      "reservationType": "immediate",
+      "discountedFare": 5.552851666666667
+    },
+    {
+      "id": "-ROseOprFRrLIUiUSC0Ie",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T19:16:14.580Z",
+      "reservationType": "immediate",
+      "discountedFare": 5.552851666666667
+    },
+    {
+      "id": "u1m6pXOmQH_vR7twNdnxO",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T19:17:22.114Z",
+      "reservationType": "immediate",
+      "discountedFare": 27.539546666666666
+    },
+    {
+      "id": "XQwps_mA9GOEU4rgT6aVf",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Paradis, Paris, France",
+      "pickupTime": "2024-07-08T19:19:29.487Z",
+      "reservationType": "immediate",
+      "discountedFare": 11.756293333333334
+    },
+    {
+      "id": "NFXLrUsDc1uOMGKhKJNFj",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T19:28:51.575Z",
+      "reservationType": "immediate",
+      "discountedFare": 5.552851666666667
+    },
+    {
+      "id": "cyKU08JtsclX0fRXE6bF9",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T19:29:16.441Z",
+      "reservationType": "immediate",
+      "discountedFare": 5.552851666666667
+    },
+    {
+      "id": "JH8BbuKHg30JjLJ3zrvuK",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T19:34:05.826Z",
+      "reservationType": "immediate",
+      "discountedFare": 5.545768333333333
+    },
+    {
+      "id": "zMDhI0x5zCtxZ7qaMPQJx",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T19:44:17.338Z",
+      "reservationType": "immediate",
+      "discountedFare": 15.343520000000002
+    },
+    {
+      "id": "dIQ5svwpMfeXzSD8x65qu",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T19:52:45.606Z",
+      "reservationType": "immediate",
+      "discountedFare": 27.493505
+    },
+    {
+      "id": "qQQQo8_nN2TUn0XBr-vVM",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T20:03:02.775Z",
+      "reservationType": "immediate",
+      "discountedFare": 27.539546666666666
+    },
+    {
+      "id": "jc6MISBlQjdNOPGLG73Gl",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T20:08:52.237Z",
+      "reservationType": "immediate",
+      "discountedFare": 15.492269999999998
+    },
+    {
+      "id": "a9SxHGT82NM4fG4lwaMRg",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "5 Rue de Dunkerque, Paris, France",
+      "pickupTime": "2024-07-08T20:10:10.320Z",
+      "reservationType": "immediate",
+      "discountedFare": 12.260173333333334
+    },
+    {
+      "id": "fKDRl5FXxeGTkgXYxblgd",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue du Faubourg Montmartre, Paris, France",
+      "pickupTime": "2024-07-08T20:25:08.986Z",
+      "reservationType": "immediate",
+      "discountedFare": 11.981288333333332
+    },
+    {
+      "id": "ZW8BiVPC05apavpdYnhK_",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T20:40:01.572Z",
+      "reservationType": "immediate",
+      "discountedFare": 15.64102
+    },
+    {
+      "id": "De3rEFpfR4HEdKaGlU_GO",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T20:40:39.635Z",
+      "reservationType": "immediate",
+      "discountedFare": 15.637478333333332
+    },
+    {
+      "id": "h4abS3cN6vPymbQ3YBUZt",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Madrid, Paris, France",
+      "pickupTime": "2024-07-08T20:41:19.864Z",
+      "reservationType": "immediate",
+      "discountedFare": 15.697686666666666
+    },
+    {
+      "id": "tbyOF3mxT3kWO78lsG_Bs",
+      "pickupLocation": "19 Rue Jeanne d'Arc, 75013 Paris, France",
+      "dropoffLocation": "7 Rue de Gravelle, Paris, France",
+      "pickupTime": "2024-07-08T20:46:27.300Z",
+      "reservationType": "immediate",
+      "discountedFare": 5.50681
+    }
+  ],
+  "drivers": [
+    {
+      "id": "rY9XzeTLTXXJoVyUiqnBU",
+      "email": "eurebatiments@gmail.com",
+      "phone": "0756922626",
+      "name": "simah",
+      "password": "$2b$10$bsZZYz26F8vT2Z9o5OomNODQr9PK29.1HO.ulMjJ9LOZOMN2dcI0K",
+      "verified": false,
+      "token": "_j2n1ZVsvQaPTDV1oou2Z"
+    },
+    {
+      "id": "dTdUAsA47zu2bIpaT8Ecg",
+      "email": "eurebatiments@gmail.com",
+      "phone": "0756922626",
+      "name": "simah",
+      "password": "$2b$10$pRgYyGYzV0P1moO5TABi2uQ9XbMhN/PwhEpaUDfkhRY4P2D/9jlZW",
+      "verified": true,
+      "token": null
+    },
+    {
+      "id": "Fa3XI7kwm14m97NtHXIxw",
+      "email": "albertsimah5@gmail.com",
+      "phone": "0756922626",
+      "name": "simah",
+      "password": "$2b$10$wQcPYwmJg6GSmIWCTVPdS.bCVJaOmN1RRoTsxvWPgylZm3EIAQs9m",
+      "verified": true,
+      "token": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Chauffeur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Compléter Profil Chauffeur</h1>
+    </header>
+    <main>
+        <form id="profile-form">
+            <input type="hidden" id="driver-id" name="driver-id" value="">
+
+            <label for="first-name">Prénom:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Nom:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="birth-date">Date de naissance:</label>
+            <input type="date" id="birth-date" name="birth-date" required>
+
+            <label for="siret">SIRET:</label>
+            <input type="text" id="siret" name="siret" required>
+
+            <label for="company-name">Nom de la société:</label>
+            <input type="text" id="company-name" name="company-name" required>
+
+            <label for="address">Adresse:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="postal-code">Code postal:</label>
+            <input type="text" id="postal-code" name="postal-code" required>
+
+            <label for="city">Ville:</label>
+            <input type="text" id="city" name="city" required>
+
+            <button type="submit">Mettre à jour</button>
+        </form>
+        <p id="message"></p>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const driverId = urlParams.get('id');
+            document.getElementById('driver-id').value = driverId;
+        });
+
+        document.getElementById('profile-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const id = document.getElementById('driver-id').value;
+            const firstName = document.getElementById('first-name').value;
+            const lastName = document.getElementById('last-name').value;
+            const birthDate = document.getElementById('birth-date').value;
+            const siret = document.getElementById('siret').value;
+            const companyName = document.getElementById('company-name').value;
+            const address = document.getElementById('address').value;
+            const postalCode = document.getElementById('postal-code').value;
+            const city = document.getElementById('city').value;
+
+            fetch('http://localhost:3001/driver-profile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id, firstName, lastName, birthDate, siret, companyName, address, postalCode, city })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('message').innerText = data.message;
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+            });
+        });
+    </script>
+    <script src="driver-location.js" defer></script>
+</body>
+</html>

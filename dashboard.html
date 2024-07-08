@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord des Réservations</title>
+    <script src="dashboard.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tableau de Bord des Réservations</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Liste des Réservations</h2>
+            <table id="reservations-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Lieu de prise en charge</th>
+                        <th>Lieu de destination</th>
+                        <th>Heure de prise en charge</th>
+                        <th>Type de réservation</th>
+                        <th>Tarif estimé</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Les réservations seront insérées ici -->
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Localisation des Chauffeurs</h2>
+            <div id="map" style="height: 500px;"></div>
+        </section>
+    </main>
+</body>
+</html>

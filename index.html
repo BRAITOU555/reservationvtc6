@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation VTC</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAtLp2hyqzbymmdeOimAXBaJcB7U92XVA&libraries=places&callback=initMap" async defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Réservation de VTC</h1>
+    </header>
+    <main>
+        <section>
+            <form id="reservation-form">
+                <label for="pickup-location">Lieu de prise en charge:</label>
+                <input type="text" id="pickup-location" name="pickup-location" required>
+                <button type="button" id="locate-btn">Me localiser</button>
+
+                <label for="dropoff-location">Lieu de destination:</label>
+                <input type="text" id="dropoff-location" name="dropoff-location" required>
+
+                <button type="button" id="immediate-btn">Tout de suite</button>
+                <button type="button" id="scheduled-btn">Planifiée</button>
+                <input type="hidden" id="reservation-type" name="reservation-type" value="immediate">
+
+                <label for="pickup-time" id="pickup-time-label" style="display:none;">Heure de prise en charge:</label>
+                <input type="datetime-local" id="pickup-time" name="pickup-time" style="display:none;">
+
+                <button type="submit">Réserver</button>
+            </form>
+            <p id="estimated-fare"></p>
+            <p id="estimated-time"></p>
+        </section>
+        <section id="map" style="height: 500px;"></section>
+    </main>
+</body>
+</html>
