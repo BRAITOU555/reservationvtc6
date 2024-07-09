@@ -1,5 +1,5 @@
 import { Low } from 'lowdb';
-import { JSONFile } from 'lowdb/node'; // Correct importation
+import { JSONFile } from 'lowdb/node'; // Utilisez le bon sous-module de lowdb
 import express from 'express';
 import bodyParser from 'body-parser';
 import nodemailer from 'nodemailer';
