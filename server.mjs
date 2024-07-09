@@ -1,5 +1,5 @@
 import { Low } from 'lowdb';
-import JSONFile from 'lowdb/adapters/JSONFile.js'; // Import the JSONFile adapter directly
+import { JSONFile } from 'lowdb/node'; // Utilisation de l'adaptateur JSONFile depuis lowdb/node
 import express from 'express';
 import bodyParser from 'body-parser';
 import nodemailer from 'nodemailer';
