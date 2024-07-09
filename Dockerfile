@@ -7,14 +7,8 @@ WORKDIR /app
 # Copie le fichier package.json et package-lock.json
 COPY package*.json ./
 
-# Affiche le contenu du répertoire de travail
-RUN ls -la
-
 # Installe les dépendances du projet
 RUN npm ci
-
-# Affiche le contenu du répertoire de travail après l'installation des dépendances
-RUN ls -la node_modules
 
 # Copie le reste des fichiers de l'application
 COPY . .
